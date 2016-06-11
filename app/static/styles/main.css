@@ -74,6 +74,14 @@ div#heading {
 div#heading h1 {
     font-size: 25px;
     text-transform: uppercase;
+    text-shadow: -2px 2px #FDED39;
+    margin: 0;
+    color: black;
+}
+
+div#heading h2 {
+    font-size: 18px;
+    text-transform: uppercase;
     text-shadow: -2px 2px black;
     margin: 0;
     color: #FDED39;
