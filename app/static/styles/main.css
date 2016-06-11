@@ -83,15 +83,13 @@ div#heading h1 {
 div#heading h2 {
     font-size: 14px;
     margin: 0;
-    color: white;
-    text-shadow:#2e2e2e 0 4px 5px;
+    color: gray;
 }
 
 div#heading b {
     font-size: 18px;
     margin: 0;
     color: #1aa3ff;
-    text-shadow:#2e2e2e 0 4px 5px;
 }
 
 div#heading p {
