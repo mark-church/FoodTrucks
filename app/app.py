@@ -14,9 +14,9 @@ container_ipaddress = socket.gethostbyname(socket.gethostname())
 
 def load_data_in_es():
     """ creates an index in elasticsearch """
-    url = "http://data.sfgov.org/resource/rqzj-sfat.json"
-    r = requests.get(url)
-    data = r.json()
+    filename = "./static/data.json"
+    f = open(filename, 'r')
+    data = f.read()
     print "Loading data in elasticsearch ..."
     for id, truck in enumerate(data):
         res = es.index(index="sfdata", doc_type="truck", id=id, body=truck)
